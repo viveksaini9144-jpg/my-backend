@@ -14,3 +14,6 @@ app.add_middleware(
 @app.get("/")
 def home():
     return {"message": "Mera backend chal raha hai!"}
+@app.get("/test")
+def test():
+    return {"message": "Frontend aur backend connected!"}
